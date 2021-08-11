@@ -1,12 +1,9 @@
 import streamlit as st
-import tensorflow as tf
 from PIL import Image, ImageOps
 import numpy as np
 import cv2
 from tensorflow.keras.preprocessing.image import load_img, img_to_array
-from tensorflow.keras import models
 import os
-from tensorflow.keras.applications.inception_v3 import preprocess_input, decode_predictions
 import numpy as np
 import tensorflow as tf
 from tensorflow import keras
@@ -26,36 +23,23 @@ file = st.file_uploader("Please upload an image file", type=["jpg", "png"])
 
 def import_and_predict(image_data):
         
-        model = load_model('../models/inceptionmodel.h5')
-        image = load_img(image_data, target_size=(150, 150))
-        image = img_to_array(image)
-        print(image)
+        model = tf.keras.models.load_model('/Users/winsometang/dsi_galvanize/capstone/DoIKnowYou/models/inceptionmodel.h5')
+        
+        image = img_to_array(image_data)/255
         image = image.reshape((1, image.shape[0], image.shape[1], image.shape[2]))
-        image = preprocess_input(image) #I think this is where we put the preprocess input we used for the test images
-        yhat = model.predict(image)
-        return yhat
-        # label = decode_predictions(yhat)
-    # return highest probability 
         
-        # size = (150,150)    
-        # image = ImageOps.fit(image_data, size, Image.ANTIALIAS)
-        # image = np.asarray(image)
-        # img = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
-        # img_resize = (cv2.resize(img, dsize=(150, 150),    interpolation=cv2.INTER_CUBIC))/255.
+        image = model.predict(image)
+        return image
         
-        # img_reshape = img_resize[np.newaxis,...]
-    
-        # prediction = model.predict(img_reshape)
-        
-        # return prediction
 
 if file is None:
     st.text("Please upload an image file")
 else:
     image = Image.open(file)
     st.image(image)
-    data = file.read()
-    prediction = import_and_predict(data)
+    feed = Image.open(file).convert('RGB')
+    feed = feed.resize((150,150))
+    prediction = import_and_predict(feed)
     
     if np.argmax(prediction) == 0:
         st.write("Aaron_Eckhart")
