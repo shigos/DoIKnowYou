@@ -12,7 +12,7 @@ Facial recognition has been adopted as one of the most common means of biometric
 ### Data Description
  The FaceScrub dataset was created in 2015 containing 100,000 images of 530 different celebrities. The dataset is compiled using a txt file format which contains links with a downloading script. Due to the age of the data set, the final download only yielded a total of 30,000 photos.
 The subset used for modeling purposes contains approximately 1200 photos with an average of 80 per class. Below are the 26 classes along with the number of images in each class. 
-\n
+/n
 Aaron_Eckhart 92
 Alan_Rickman 93
 Alice_Krige 33
