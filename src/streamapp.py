@@ -95,6 +95,7 @@ else:
         # np.argmax(prediction) == 25:
         st.write("Selena_Gomez")
 
-
-    st.text(f"Probability {prediction})")
-    st.write(prediction)
+    st.text(max(prediction[0]))
+    # st.text(f"Probability {prediction})")
+    # st.write(prediction)
+    
