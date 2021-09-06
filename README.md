@@ -42,5 +42,6 @@ Selena_Gomez 85
 
 ### EDA
 
+
 ### Model Training
   A baseline was created using the celebrity(class) with the most images. With 1-- images, our baseline is set to be about a 6% accuracy.
