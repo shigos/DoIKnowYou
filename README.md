@@ -11,11 +11,10 @@ Facial recognition has been adopted as one of the most common means of biometric
 
 ### Data Description
  The FaceScrub dataset was created in 2015 containing 100,000 images of 530 different celebrities. The dataset is compiled using a txt file format which contains links with a downloading script. Due to the age of the data set, the final download only yielded a total of 30,000 photos.
-
-The subset used for modeling purposes contains approximately 1200 photos with an average of 80 per class.
+The subset used for modeling purposes contains approximately 1200 photos with an average of 80 per class. The celebrities(classes) in the model contains 'Aaron_Eckhart','Alan_Rickman','Alice_Krige','Bernie_Mac','Bill_Cosby','Bradley_Cooper','Bruce_Willis','Chris_Evans','Courteney_Cox','Danny_Glover','Denzel_Washington','Don_Cheadle','Eileen_Davidson','Ellen_DeGeneres','Farrah_Fawcett','Jennette_McCurdy','Jet_Li','Jim_Carrey','Jimmy_Fallon','Matt_Damon','Nicolas_Cage','Nicole_Eggert','Patrick_Swayze','Robert_Downey_Jr.','Samuel_L._Jackson','Selena_Gomez'
 
 
 ### EDA
  
 ### Model Training
-  A baseline was created using the celebrity(class) with the most images. With 1-- images, our baseline is set to be about a 6% accuracy
+  A baseline was created using the celebrity(class) with the most images. With 1-- images, our baseline is set to be about a 6% accuracy.
