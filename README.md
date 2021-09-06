@@ -41,8 +41,7 @@ Robert_Downey_Jr. 67,
 Samuel_L._Jackson 72,
 Selena_Gomez 85
 
-
-### EDA
+The celebrity class containing the most images is Courtney Cox with 125, while the celebrity class with the lowest number of images is Alice Krige with 33
 
 
 ### Model Training
