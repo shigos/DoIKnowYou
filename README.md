@@ -61,6 +61,9 @@ A distribution
 
 ### Data Cleaning
 
-  The images prior to cleaning come in different sizes capture the subject while the images that were fed into the model were normalized and reshaped to be consistent.
+  The images prior to cleaning come in different sizes capture the subject while the images that were fed into the model were normalized and reshaped to be consistent throughout the training data.
+  
+  
+  
 ### Model Training
   A baseline was created using the celebrity(class) with the most images. With 1-- images, our baseline is set to be about a 6% accuracy.
