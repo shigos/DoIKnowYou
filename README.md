@@ -96,5 +96,7 @@ Example images below show photos post nomalization and resizing, the way they ar
   
 ## Model Training
   A baseline was created using the celebrity(class) with the most images. With 125 images, our baseline is set to be about a 6% accuracy.
+  Models that have been tested include a sequential custom built model, AlexNet, and Inception V3
   
 ## Results
+  The best performing model in my testing has been the Inception V3
