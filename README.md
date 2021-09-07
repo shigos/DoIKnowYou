@@ -84,7 +84,7 @@ Examples below show images prior to normalization and resizing
 ![jb](https://user-images.githubusercontent.com/76585249/132273296-1c9186aa-1fdc-4d61-a07c-4412afdac387.png)
 
 
-Example images below show photos post nomalization and resizing, the way they are fed into the model.
+Example images below show photos post nomalization and resizing, the way they are fed into the model. These photos have been centered on the face and resized to 150 by 150.
 
 
 ![sal](https://user-images.githubusercontent.com/76585249/132273360-1dfcfb30-1be5-4d72-b25f-9c8ab770796e.jpg)
