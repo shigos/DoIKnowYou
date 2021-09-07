@@ -5,7 +5,7 @@
 3. [EDA](https://github.com/shigos/DoIKnowYou/blob/main/README.md#eda)
 4. [Data Cleaning](https://github.com/shigos/DoIKnowYou/blob/main/README.md#data-cleaning)
 5. [Models Training](https://github.com/shigos/DoIKnowYou/blob/main/README.md#model-training)
-6. [Results]()
+6. [Results](https://github.com/shigos/DoIKnowYou/blob/main/README.md#results)
 
  ## Description of Project
 Facial recognition has been adopted as one of the most common means of biometric identification in our every day lives. From banking authentication, photo labeling, to security and healthcare, there can be many applications for facial recognition technology. The goal of this project is to see if it is possible to implement a transfer learning model for an accurate celebrity prediction depsite having limited data. 
