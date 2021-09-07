@@ -3,7 +3,7 @@
 1. [Description of Project](https://github.com/shigos/DoIKnowYou/blob/main/README.md#description-of-project) 
 2. [Data Description](https://github.com/shigos/DoIKnowYou/blob/main/README.md#data-description)
 3. [EDA](https://github.com/shigos/DoIKnowYou/blob/main/README.md#eda)
-4. [Data Cleaning]()
+4. [Data Cleaning](https://github.com/shigos/DoIKnowYou/blob/main/README.md#data-cleaning)
 5. [Models]()
 6. [Conclusion]()
 
