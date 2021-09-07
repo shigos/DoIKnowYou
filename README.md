@@ -7,14 +7,14 @@
 5. [Models]()
 6. [Conclusion]()
 
- ### Description of Project
+ ## Description of Project
 Facial recognition has been adopted as one of the most common means of biometric identification in our every day lives. From banking authentication, photo labeling, to security and healthcare, there can be many applications for facial recognition technology. The goal of this project is to see if it is possible to implement a transfer learning model for an accurate celebrity prediction depsite having limited data. 
 
-### Data Description
+## Data Description
  The FaceScrub dataset was created in 2015 containing 100,000 images of 530 different celebrities. The dataset is compiled using a txt file format which contains links with a downloading script. Due to the age of the data set, the final download only yielded a total of 30,000 photos.
 
 
-### EDA
+## EDA
   The subset used for modeling purposes contains approximately 1200 photos with an average of 80 per class. Below are the 26 classes along with the number of images in each class. 
   
   
@@ -71,7 +71,7 @@ During my exploratory data analysis of the images provided, it seems that there 
 Image above was found in the Samuel L. Jackson file but seems to be a morphed image of both Samuel L. Jackson and Bruce Willis.
 
 
-### Data Cleaning
+## Data Cleaning
 
   The images prior to cleaning come in different sizes capture the subject while the images that were fed into the model were normalized and reshaped to be consistent throughout the training data.
   
@@ -94,5 +94,5 @@ Example images below show photos post nomalization and resizing, the way they ar
   
   
   
-### Model Training
+## Model Training
   A baseline was created using the celebrity(class) with the most images. With 125 images, our baseline is set to be about a 6% accuracy.
