@@ -66,6 +66,8 @@ During my exploratory data analysis of the images provided, it seems that there 
 
 
 ![sameul l jackson](https://user-images.githubusercontent.com/76585249/132273589-8b247706-4959-42aa-8c6b-5761b517ea27.png)
+
+
 Image above was found in the Samuel L. Jackson file but seems to be a morphed image of both Samuel L. Jackson and Bruce Willis.
 
 
