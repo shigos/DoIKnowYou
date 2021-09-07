@@ -67,6 +67,23 @@ A distribution of the counts of images are shown in the graph below
 
   The images prior to cleaning come in different sizes capture the subject while the images that were fed into the model were normalized and reshaped to be consistent throughout the training data.
   
+Examples below show images prior to normalization and resizing
+
+
+![rdj](https://user-images.githubusercontent.com/76585249/132273292-0a95c55a-0724-4838-ae7b-fc1e00bc86a1.png)
+
+
+![jb](https://user-images.githubusercontent.com/76585249/132273296-1c9186aa-1fdc-4d61-a07c-4412afdac387.png)
+
+
+Example images below show photos post nomalization and resizing, the way they are fed into the model.
+
+
+![sal](https://user-images.githubusercontent.com/76585249/132273360-1dfcfb30-1be5-4d72-b25f-9c8ab770796e.jpg)
+
+![cr](https://user-images.githubusercontent.com/76585249/132273349-63f798d2-f8ca-456d-9518-c61d2197a417.jpg)
+
+  
   
   
 ### Model Training
