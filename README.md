@@ -47,6 +47,9 @@ Selena_Gomez 85
 
 The celebrity class containing the most images is Courtney Cox with 125, while the celebrity class with the lowest number of images is Alice Krige with 33
 Here are two sample images that were fed into the models of the respective classes. 
+
+
+
 ![Courteney_Cox_35355_16220](https://user-images.githubusercontent.com/76585249/132271101-043c2685-bf25-48ee-8fc5-2d445753b153.jpeg)
 
 
