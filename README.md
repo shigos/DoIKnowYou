@@ -1,4 +1,4 @@
-![eda](https://user-images.githubusercontent.com/76585249/132273166-7dc21ba3-d44a-4231-a7e2-787ee5ddb858.png)
+
 # Face to Face
 1. [Description of Project](https://github.com/shigos/DoIKnowYou/blob/main/README.md#description-of-project) 
 2. [Data Description](https://github.com/shigos/DoIKnowYou/blob/main/README.md#data-description)
