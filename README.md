@@ -1,7 +1,7 @@
 # Face to Face
 1. [Description of Project](https://github.com/shigos/DoIKnowYou/blob/main/README.md#description-of-project) 
 2. [Data Description](https://github.com/shigos/DoIKnowYou/blob/main/README.md#data-description)
-3. [Cleaning/Notebooks]()
+3. [Data Cleaning]()
 4. [EDA]()
 5. [Models]()
 6. [Conclusion]()
@@ -42,7 +42,15 @@ Samuel_L._Jackson 72,
 Selena_Gomez 85
 
 The celebrity class containing the most images is Courtney Cox with 125, while the celebrity class with the lowest number of images is Alice Krige with 33
+Here are two sample images that were fed into the models of the respective classes. 
+![Courteney_Cox_35355_16220](https://user-images.githubusercontent.com/76585249/132271101-043c2685-bf25-48ee-8fc5-2d445753b153.jpeg)
+![Alice_Krige_89438_40707](https://user-images.githubusercontent.com/76585249/132271110-ec2be154-00cb-451f-919e-723f572c94b6.jpeg)
+
+A distribution 
 
 
+### Data Cleaning
+
+  The images prior to cleaning come in different sizes capture the subject while the images that were fed into the model were normalized and resized to be consistent.
 ### Model Training
   A baseline was created using the celebrity(class) with the most images. With 1-- images, our baseline is set to be about a 6% accuracy.
