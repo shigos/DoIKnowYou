@@ -58,9 +58,15 @@ Here are two sample images that were fed into the models of the respective class
 ![Alice_Krige_89438_40707](https://user-images.githubusercontent.com/76585249/132271110-ec2be154-00cb-451f-919e-723f572c94b6.jpeg)
 
 
-A distribution of the counts of images are shown in the graph below
+A distribution of the counts of images are shown in the graph below.
 
 ![eda](https://user-images.githubusercontent.com/76585249/132273176-7ffc12e5-14a7-4400-9b6c-846658a62a88.png)
+
+During my exploratory data analysis of the images provided, it seems that there contained images that seemed to be morphed and could possibly throw off the model's prediction. Due to the large amounts of photos within the dataset, there is no possible way to find all morphed images. 
+
+
+![sameul l jackson](https://user-images.githubusercontent.com/76585249/132273589-8b247706-4959-42aa-8c6b-5761b517ea27.png)
+
 
 
 ### Data Cleaning
@@ -87,4 +93,4 @@ Example images below show photos post nomalization and resizing, the way they ar
   
   
 ### Model Training
-  A baseline was created using the celebrity(class) with the most images. With 1-- images, our baseline is set to be about a 6% accuracy.
+  A baseline was created using the celebrity(class) with the most images. With 125 images, our baseline is set to be about a 6% accuracy.
