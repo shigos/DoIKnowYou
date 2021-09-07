@@ -1,3 +1,4 @@
+![eda](https://user-images.githubusercontent.com/76585249/132273166-7dc21ba3-d44a-4231-a7e2-787ee5ddb858.png)
 # Face to Face
 1. [Description of Project](https://github.com/shigos/DoIKnowYou/blob/main/README.md#description-of-project) 
 2. [Data Description](https://github.com/shigos/DoIKnowYou/blob/main/README.md#data-description)
@@ -56,7 +57,10 @@ Here are two sample images that were fed into the models of the respective class
 
 ![Alice_Krige_89438_40707](https://user-images.githubusercontent.com/76585249/132271110-ec2be154-00cb-451f-919e-723f572c94b6.jpeg)
 
-A distribution 
+
+A distribution of the counts of images are shown in the graph below
+
+![eda](https://user-images.githubusercontent.com/76585249/132273176-7ffc12e5-14a7-4400-9b6c-846658a62a88.png)
 
 
 ### Data Cleaning
