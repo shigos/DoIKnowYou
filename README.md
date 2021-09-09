@@ -99,4 +99,4 @@ Example images below show photos post nomalization and resizing, the way they ar
   Models that have been tested include a sequential custom built model, AlexNet, and Inception V3
   
 ## Results
-  The best performing model in my testing has been the Inception V3
+  The best performing model in my testing has been the Inception V3 with an accuracy of about 60% and a precision of 80%
