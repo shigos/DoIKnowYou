@@ -11,11 +11,11 @@
 Facial recognition has been adopted as one of the most common means of biometric identification in our every day lives. From banking authentication, photo labeling, to security and healthcare, there can be many applications for facial recognition technology. The goal of this project is to see if it is possible to implement a transfer learning model for an accurate celebrity prediction depsite having limited data. 
 
 ## Data Description
- The FaceScrub dataset was created in 2015 containing 100,000 images of 530 different celebrities. The dataset is compiled using a txt file format which contains links with a downloading script. Due to the age of the data set, the final download only yielded a total of 30,000 photos.
+ The FaceScrub dataset was created in 2015 containing 100,000 images of 530 different celebrities. The dataset is compiled using a txt file format which contains links with a downloading script. Due to the age of the data set, the final download only yielded a total of approximately 30,000 photos.
 
 
 ## EDA
-  The subset used for modeling purposes contains approximately 1200 photos with an average of 80 per class. Below are the 26 classes along with the number of images in each class. 
+  The subset used for modeling purposes contains approximately 1200 photos with an average of 80 per class. Below are the 26 classes along with the number of images in each class. The preprocessed images contain images of differing resolutions and sizes. It contains  
   
   
   
@@ -62,7 +62,7 @@ A distribution of the counts of images are shown in the graph below.
 
 ![eda](https://user-images.githubusercontent.com/76585249/132273176-7ffc12e5-14a7-4400-9b6c-846658a62a88.png)
 
-During my exploratory data analysis of the images provided, it seems that there contained images that seemed to be morphed and could possibly throw off the model's prediction. Due to the large amounts of photos within the dataset, there is no possible way to find all morphed images. 
+During my exploratory data analysis of the images provided, it seems that there contained images that seemed to be morphed and could possibly throw off the model's prediction. Due to the large amounts of photos within the dataset, there is effective way to identify all morphed images without reviewing all photos individually. With that in mind we can assume the model's prediction is slightly affeceted by this for some classes.
 
 
 ![sameul l jackson](https://user-images.githubusercontent.com/76585249/132273589-8b247706-4959-42aa-8c6b-5761b517ea27.png)
