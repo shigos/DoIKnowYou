@@ -51,11 +51,7 @@ Here are two sample images that were fed into the models of the respective class
 
 
 
-![Courteney_Cox_35355_16220](https://user-images.githubusercontent.com/76585249/132271101-043c2685-bf25-48ee-8fc5-2d445753b153.jpeg)
-
-
-
-![Alice_Krige_89438_40707](https://user-images.githubusercontent.com/76585249/132271110-ec2be154-00cb-451f-919e-723f572c94b6.jpeg)
+![Courteney_Cox_35355_16220](https://user-images.githubusercontent.com/76585249/132271101-043c2685-bf25-48ee-8fc5-2d445753b153.jpeg)![Alice_Krige_89438_40707](https://user-images.githubusercontent.com/76585249/132271110-ec2be154-00cb-451f-919e-723f572c94b6.jpeg)
 
 
 A distribution of the counts of images are shown in the graph below.
