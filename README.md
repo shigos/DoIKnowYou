@@ -54,7 +54,7 @@ Here are two sample images that were fed into the models of the respective class
 ![Courteney_Cox_35355_16220](https://user-images.githubusercontent.com/76585249/132271101-043c2685-bf25-48ee-8fc5-2d445753b153.jpeg)![Alice_Krige_89438_40707](https://user-images.githubusercontent.com/76585249/132271110-ec2be154-00cb-451f-919e-723f572c94b6.jpeg)
 
 
-A distribution of the counts of images are shown in the graph below.
+A distribution of the counts of images are shown in the graph below. The distribution of the images are displayed with a sligtht skew 
 
 ![eda](https://user-images.githubusercontent.com/76585249/132273176-7ffc12e5-14a7-4400-9b6c-846658a62a88.png)
 
@@ -87,7 +87,9 @@ Example images below show photos post nomalization and resizing, the way they ar
   
 ## Model Training
   A baseline was created using the celebrity(class) with the most images. With 125 images, our baseline is set to be about a 6% accuracy.
-  Models that have been tested include a sequential custom built model, AlexNet, and Inception V3
+  Models that have been tested include a sequential custom built model, AlexNet, and Inception V3. 
+
   
 ## Results
+  When compared the baseline, AlexNet severely overfit to the data, causing validation accuracy drop below our baseline accuracy. 
   The best performing model in my testing has been the Inception V3 with an accuracy of about 60% and a precision of 80%
