@@ -95,8 +95,12 @@ Example images below show photos post nomalization and resizing, the way they ar
   The best performing model in my testing has been the Inception V3 with an accuracy of about 60% and a precision of 80%
   
 ## Using The Model
-  The model can be run using the command line or using streamlit app on localized machine. To make a prediction using the modeling script, fork the repo model.py and run in the command line {python model.py --test_path 'image path'} . 
+  The model can be run using the command line or using streamlit app on localized machine, both methods will require you to first fork the repo for file structure and model.py file. 
+  
+  To make a prediction using the modeling script, fork the repo model.py and run in the command line {python model.py --test_path 'image path'} . 
   
   
 To use streamlit app, you must first install streamlit using 'pip install streamlit'.
+Start up streamlit with {streamlit run /rootpath/DoIKnowYou/src/streamapp.py}
+Path should be altered as repo was stored in local machine.
 
