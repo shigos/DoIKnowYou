@@ -93,8 +93,8 @@ Example images below show photos post nomalization and resizing, the way they ar
 ## Results
   When compared the baseline, AlexNet severely overfit to the data, causing validation accuracy drop below our baseline accuracy. 
   The best performing model in my testing has been the Inception V3 with an accuracy of about 60% and a precision of 80%
- | First Header  | Validation Accuracy |Validation Precision|
-| ------------- | ------------- |-------------|
+ |   | Validation Accuracy |Validation Precision|
+| Baseline | 6% |-------------|
 | Sequential  | 6%            |5%           |
 | AlexNet | 4%            |           6%|
 | InceptionV3  | 59%           |          86%|
