@@ -58,7 +58,7 @@ A distribution of the counts of images are shown in the graph below. The distrib
 
 ![eda](https://user-images.githubusercontent.com/76585249/132273176-7ffc12e5-14a7-4400-9b6c-846658a62a88.png)
 
-During my exploratory data analysis of the images provided, it seems that there contained images that seemed to be morphed and could possibly throw off the model's prediction. Due to the large amounts of photos within the dataset, there is not an effective way to identify all morphed images without reviewing all photos individually. With that in mind we can assume the model's prediction is slightly affeceted by this for some classes.
+During my exploratory data analysis of the images provided, it seems that there contained images that seemed to be morphed and could possibly throw off the model's prediction. Due to the large amounts of photos within the dataset, there is not an effective way to identify all morphed images without reviewing all photos individually. With that in mind we can assume the model's prediction is slightly affected by this for some classes.
 
 
 ![samuel l jackson](https://user-images.githubusercontent.com/76585249/132273589-8b247706-4959-42aa-8c6b-5761b517ea27.png)
