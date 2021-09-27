@@ -54,14 +54,14 @@ Here are two sample images that were fed into the models of the respective class
 ![Courteney_Cox_35355_16220](https://user-images.githubusercontent.com/76585249/132271101-043c2685-bf25-48ee-8fc5-2d445753b153.jpeg)![Alice_Krige_89438_40707](https://user-images.githubusercontent.com/76585249/132271110-ec2be154-00cb-451f-919e-723f572c94b6.jpeg)
 
 
-A distribution of the counts of images are shown in the graph below. The distribution of the images are displayed with a sligtht skew 
+A distribution of the counts of images are shown in the graph below. The distribution of the images are displayed with a slight skew 
 
 ![eda](https://user-images.githubusercontent.com/76585249/132273176-7ffc12e5-14a7-4400-9b6c-846658a62a88.png)
 
-During my exploratory data analysis of the images provided, it seems that there contained images that seemed to be morphed and could possibly throw off the model's prediction. Due to the large amounts of photos within the dataset, there is effective way to identify all morphed images without reviewing all photos individually. With that in mind we can assume the model's prediction is slightly affeceted by this for some classes.
+During my exploratory data analysis of the images provided, it seems that there contained images that seemed to be morphed and could possibly throw off the model's prediction. Due to the large amounts of photos within the dataset, there is not an effective way to identify all morphed images without reviewing all photos individually. With that in mind we can assume the model's prediction is slightly affeceted by this for some classes.
 
 
-![sameul l jackson](https://user-images.githubusercontent.com/76585249/132273589-8b247706-4959-42aa-8c6b-5761b517ea27.png)
+![samuel l jackson](https://user-images.githubusercontent.com/76585249/132273589-8b247706-4959-42aa-8c6b-5761b517ea27.png)
 
 
 Image above was found in the Samuel L. Jackson file but seems to be a morphed image of both Samuel L. Jackson and Bruce Willis.
