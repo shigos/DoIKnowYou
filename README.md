@@ -93,6 +93,11 @@ Example images below show photos post nomalization and resizing, the way they ar
 ## Results
   When compared the baseline, AlexNet severely overfit to the data, causing validation accuracy drop below our baseline accuracy. 
   The best performing model in my testing has been the Inception V3 with an accuracy of about 60% and a precision of 80%
+ | First Header  | Validation Accuracy |Validation Precision|
+| ------------- | ------------- |-------------|
+| Sequential  | 6%            |5%           |
+| AlexNet | 4%            |           6%|
+| InceptionV3  | 59%           |          86%|
   
 ## Using The Model
   The model can be run using the command line or using streamlit app on localized machine, both methods will require you to first fork the repo for file structure and model.py file. 
